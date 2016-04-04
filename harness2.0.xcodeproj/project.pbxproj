@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E933BF581C96793600CA6934 /* DIYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933BF571C96793600CA6934 /* DIYTableViewCell.swift */; };
+		E933BF5A1C97458C00CA6934 /* EnergyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933BF591C97458B00CA6934 /* EnergyButton.swift */; };
+		E95D9FA71C935DFF0027E365 /* EnergyTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D9FA61C935DFF0027E365 /* EnergyTypeCell.swift */; };
+		E95D9FA91C946CB50027E365 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D9FA81C946CB50027E365 /* Banner.swift */; };
+		E95D9FAE1C94B1DF0027E365 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D9FAD1C94B1DF0027E365 /* InfoViewController.swift */; };
+		E95D9FB01C94B1ED0027E365 /* DIYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D9FAF1C94B1ED0027E365 /* DIYViewController.swift */; };
 		E9CC08661C8F65E700BD4730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC08651C8F65E700BD4730 /* AppDelegate.swift */; };
 		E9CC08681C8F65E700BD4730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC08671C8F65E700BD4730 /* ViewController.swift */; };
 		E9CC086B1C8F65E700BD4730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CC08691C8F65E700BD4730 /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		E9CC08701C8F65E700BD4730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CC086E1C8F65E700BD4730 /* LaunchScreen.storyboard */; };
 		E9CC087B1C8F65E800BD4730 /* harness2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC087A1C8F65E800BD4730 /* harness2_0Tests.swift */; };
 		E9CC08861C8F65E800BD4730 /* harness2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC08851C8F65E800BD4730 /* harness2_0UITests.swift */; };
+		E9DA1E0B1C9881B900B5C881 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1E0A1C9881B900B5C881 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E933BF571C96793600CA6934 /* DIYTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYTableViewCell.swift; sourceTree = "<group>"; };
+		E933BF591C97458B00CA6934 /* EnergyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyButton.swift; sourceTree = "<group>"; };
+		E95D9FA61C935DFF0027E365 /* EnergyTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyTypeCell.swift; sourceTree = "<group>"; };
+		E95D9FA81C946CB50027E365 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		E95D9FAD1C94B1DF0027E365 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E95D9FAF1C94B1ED0027E365 /* DIYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYViewController.swift; sourceTree = "<group>"; };
 		E9CC08621C8F65E700BD4730 /* harness2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harness2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CC08651C8F65E700BD4730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9CC08671C8F65E700BD4730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		E9CC08811C8F65E800BD4730 /* harness2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harness2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CC08851C8F65E800BD4730 /* harness2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harness2_0UITests.swift; sourceTree = "<group>"; };
 		E9CC08871C8F65E800BD4730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DA1E0A1C9881B900B5C881 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E95D9FAA1C94B1A30027E365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9CC08671C8F65E700BD4730 /* ViewController.swift */,
+				E95D9FAD1C94B1DF0027E365 /* InfoViewController.swift */,
+				E95D9FAF1C94B1ED0027E365 /* DIYViewController.swift */,
+				E9DA1E0A1C9881B900B5C881 /* WebViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E95D9FAB1C94B1A80027E365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E95D9FA61C935DFF0027E365 /* EnergyTypeCell.swift */,
+				E95D9FA81C946CB50027E365 /* Banner.swift */,
+				E933BF571C96793600CA6934 /* DIYTableViewCell.swift */,
+				E933BF591C97458B00CA6934 /* EnergyButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E95D9FAC1C94B1AC0027E365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E9CC08591C8F65E600BD4730 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +140,10 @@
 		E9CC08641C8F65E700BD4730 /* harness2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				E95D9FAC1C94B1AC0027E365 /* Model */,
+				E95D9FAB1C94B1A80027E365 /* View */,
+				E95D9FAA1C94B1A30027E365 /* Controller */,
 				E9CC08651C8F65E700BD4730 /* AppDelegate.swift */,
-				E9CC08671C8F65E700BD4730 /* ViewController.swift */,
 				E9CC08691C8F65E700BD4730 /* Main.storyboard */,
 				E9CC086C1C8F65E700BD4730 /* Assets.xcassets */,
 				E9CC086E1C8F65E700BD4730 /* LaunchScreen.storyboard */,
@@ -259,8 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95D9FA71C935DFF0027E365 /* EnergyTypeCell.swift in Sources */,
+				E9DA1E0B1C9881B900B5C881 /* WebViewController.swift in Sources */,
+				E933BF581C96793600CA6934 /* DIYTableViewCell.swift in Sources */,
+				E933BF5A1C97458C00CA6934 /* EnergyButton.swift in Sources */,
+				E95D9FB01C94B1ED0027E365 /* DIYViewController.swift in Sources */,
+				E95D9FA91C946CB50027E365 /* Banner.swift in Sources */,
 				E9CC08681C8F65E700BD4730 /* ViewController.swift in Sources */,
 				E9CC08661C8F65E700BD4730 /* AppDelegate.swift in Sources */,
+				E95D9FAE1C94B1DF0027E365 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +539,7 @@
 				E9CC088C1C8F65E800BD4730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9CC088D1C8F65E800BD4730 /* Build configuration list for PBXNativeTarget "harness2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +548,7 @@
 				E9CC088F1C8F65E800BD4730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9CC08901C8F65E800BD4730 /* Build configuration list for PBXNativeTarget "harness2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +557,7 @@
 				E9CC08921C8F65E800BD4730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
